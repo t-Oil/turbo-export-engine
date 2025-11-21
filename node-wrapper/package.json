@@ -1,6 +1,6 @@
 {
-  "name": "@turbo-export-engine/core",
-  "version": "1.0.0",
+  "name": "turbo-export-engine",
+  "version": "1.0.1",
   "description": "High-performance CSV and XLSX export engine powered by Go",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,10 +19,20 @@
     "excel",
     "streaming",
     "high-performance",
-    "golang"
+    "golang",
+    "split",
+    "zip"
   ],
-  "author": "Export Engine Team",
+  "author": "t-Oil",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-Oil/turbo-export-engine.git"
+  },
+  "homepage": "https://github.com/t-Oil/turbo-export-engine#readme",
+  "bugs": {
+    "url": "https://github.com/t-Oil/turbo-export-engine/issues"
+  },
   "files": [
     "dist",
     "bin"
