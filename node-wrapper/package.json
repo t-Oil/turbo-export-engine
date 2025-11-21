@@ -1,0 +1,38 @@
+{
+  "name": "@turbo-export-engine/core",
+  "version": "1.0.0",
+  "description": "High-performance CSV and XLSX export engine powered by Go",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "turbo-export-engine": "./bin/export-engine"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "csv",
+    "xlsx",
+    "export",
+    "excel",
+    "streaming",
+    "high-performance",
+    "golang"
+  ],
+  "author": "Export Engine Team",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
